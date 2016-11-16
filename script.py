@@ -163,9 +163,6 @@ if __name__ == '__main__':
     for i in xrange(0, len(Car.all_cars)):
         p = threading.Thread(target=at_finish, args=[i, ])
         p.start()
-        
-    import sys
-    sys.exit(7)
 
 
 
