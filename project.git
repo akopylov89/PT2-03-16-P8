@@ -1,3 +1,4 @@
+#! /usr/bin/python
 from random import randint
 from pprint import pprint as pp
 import time
